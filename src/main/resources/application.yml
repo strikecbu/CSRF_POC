@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: '@activatedProperties@'
+server:
+  servlet:
+    context-path: /bondlic
